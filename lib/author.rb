@@ -8,4 +8,10 @@ class Author
     @name = name 
     @posts = []
   end
+  
+    def add_pos(song)
+    self.songs << song
+    song.artist = self
+    @@song_count +=1
+  end
 end
