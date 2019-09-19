@@ -2,7 +2,7 @@ class Author
   
   attr_accessor :name, :posts
   
-  @@posts = []
+  @@post_count = []
   
   def intiative(name)
     @name = name 
