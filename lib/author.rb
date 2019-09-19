@@ -4,7 +4,7 @@ class Author
   
   @@post_count = []
   
-  def intiative(name)
+  def intialize(name)
     @name = name 
     @posts = []
   end
