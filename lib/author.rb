@@ -1,4 +1,4 @@
-reguire "pry"
+require "pry"
 class Author 
   attr_accessor :name, :posts
   
