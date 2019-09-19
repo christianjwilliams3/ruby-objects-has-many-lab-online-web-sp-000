@@ -19,6 +19,8 @@ class Author
       post = Post.new(title)
         self.posts << post
       post.author = self
-    @@song_count +=1
+    @@post_count +=1
   end
+  
+  
 end
