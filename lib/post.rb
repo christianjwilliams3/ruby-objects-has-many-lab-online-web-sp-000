@@ -5,7 +5,7 @@ class Post
 
   def initialize(name, title=nil)
     @name = name
-    @author = author
+    @title = title
     @@all << self
   end
 
