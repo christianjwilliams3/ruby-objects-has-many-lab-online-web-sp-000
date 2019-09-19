@@ -1,5 +1,8 @@
 class Author 
   
-  attr_accessor :name, :title 
+  attr_accessor :name, :posts
   
-  def intiative()
+  @@posts = []
+  
+  def intiative(name)
+    @name = name 
