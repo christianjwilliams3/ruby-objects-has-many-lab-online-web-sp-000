@@ -6,3 +6,6 @@ class Author
   
   def intiative(name)
     @name = name 
+    @posts = []
+  end
+end
